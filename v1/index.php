@@ -30,20 +30,3 @@
 
   // $route->__debug();
   $route->execute();
-
-
-
-
-
-
-
-
-
-  //
-  // $array = [
-  //   'user' => $_SERVER['PHP_AUTH_USER'],
-  //   'pass' => $_SERVER['PHP_AUTH_PW']
-  // ];
-  //
-  // $response = json_encode($array);
-  // echo $response;
