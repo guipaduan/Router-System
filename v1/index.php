@@ -22,10 +22,11 @@
   $route = new Router\Router;
 
   $route->version('v1');
-  $route->group('painel/usuario')->namespace('Test')->get('/autenticar', 'Classname::autenticar');
-  $route->group('painel/usuario')->namespace('Test')->get('/autenticar/{id}/dominio/{idCliente}', 'Classname::method_get');
-  $route->group('painel/usuario')->namespace('Test')->post('/autenticar/{id}/dominio/{idCliente}', 'Classname::method_post');
-  $route->group('painel/modulo')->namespace('Test')->post('/autenticar/{id}/dominio/{idCliente}', 'Classname::autenticar');
+  $route->namespace('Test')->group('group/path')->get('/route/{id}', 'Classname::method_get');
+  $route->namespace('Test')->group('group/path')->post('/route/{id}', 'Classname::method_post');
+  $route->namespace('Test')->group('group/path')->put('/route/{id}', 'Classname::method_put');
+  $route->namespace('Test')->group('group/path')->patch('/route/{id}', 'Classname::method_patch');
+  $route->namespace('Test')->group('group/path')->delete('/route/{id}', 'Classname::method_delete');
 
 
   // $route->__debug();
