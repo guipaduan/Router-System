@@ -52,7 +52,7 @@ class Classname {
 
 `$route->group('group/path')`
 
-Use para criar agrupamentos antes de cada rota, ex.: **`localhost/group/path/route/{id}`**, neste caso, **group/path** não será considerado para mapeamento de parâmetros. Caso definido com versão: **`localhost/v1/group/path/route/{id}`**
+Use para criar agrupamentos antes de cada rota, ex.: **`localhost/group/path/route/{id}`**, neste caso, **group/path** não será considerado para mapeamento de parâmetros. Caso configurado com versão: **`localhost/v1/group/path/route/{id}`**
 
 
 
