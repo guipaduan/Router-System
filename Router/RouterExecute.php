@@ -13,11 +13,6 @@
     use RouterSecurity;
 
     /**
-     * @var string
-     */
-    protected $endpoint;
-
-    /**
      * @var null|string
      */
     protected $path;
@@ -71,7 +66,7 @@
       return $this;
     }
 
-    
+
 
     /**
      * @param string namespace
