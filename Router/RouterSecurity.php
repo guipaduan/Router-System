@@ -84,7 +84,7 @@
 
 
     /**
-     * Verificar se as credenciais enviadas são válidas
+     * Verifica se as credenciais enviadas são válidas
      */
     protected function checkBasicAuth() {
       if (!(isset($_SERVER['PHP_AUTH_USER']) && $_SERVER['PHP_AUTH_USER'] === AUTH_USER) && !(isset($_SERVER['PHP_AUTH_PW']) && $_SERVER['PHP_AUTH_USER'] == AUTH_PASS)) {

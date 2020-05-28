@@ -5,8 +5,6 @@
   class Classname {
 
     function method_get(array $data) {
-      // echo 'Aqui vamo fazê magia';
-      //
       // echo '<pre>';
       // print_r($data);
       // echo '</pre>';
@@ -15,8 +13,6 @@
     }
 
     function method_post(array $data) {
-      // echo 'Retorna aê postman';
-      //
       // echo '<pre>';
       // print_r($data);
       // echo '</pre>';
