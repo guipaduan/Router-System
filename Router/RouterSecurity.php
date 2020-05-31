@@ -10,7 +10,7 @@
   trait RouterSecurity {
 
     /**
-     * @param int code :: http status code
+     * @param int $code :: http status code
      */
     protected function response($code) {
 			switch ($code) {

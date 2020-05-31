@@ -9,8 +9,8 @@
   class Router extends RouterExecute {
 
     /**
-     * @param string route :: endpoint do serviço
-     * @param string trigger :: classe e método para instância de objeto
+     * @param string $route :: endpoint do serviço
+     * @param string $trigger :: classe e método para instância de objeto
      */
     public function get(string $route, string $trigger) {
       $this->register('GET', $route, $trigger);

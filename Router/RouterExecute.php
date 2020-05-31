@@ -58,7 +58,7 @@
 
 
     /**
-     * @param string version
+     * @param string $version
      * @return Router
      */
     public function version(string $version) {
@@ -69,7 +69,7 @@
 
 
     /**
-     * @param string namespace
+     * @param string $namespace
      * @return Router
      */
     public function namespace(string $namespace) {
@@ -80,7 +80,7 @@
 
 
     /**
-     * @param string group
+     * @param string $group
      * @return Router
      */
     public function group(string $group) {
@@ -114,7 +114,6 @@
     /**
      * Verifica e faz o load da classe e método registrado na rota atual
      *
-     * @param array data
      * @return boolean
      */
     private function classLoader() {

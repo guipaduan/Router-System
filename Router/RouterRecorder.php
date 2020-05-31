@@ -64,7 +64,7 @@
     /**
      * Extrai classe do parametro $trigger passado para o register
      *
-     * @param string Class::method
+     * @param string $trigger :: Class::method
      * @return string Namespace\Class
      */
     private function className(string $trigger) {
@@ -78,7 +78,7 @@
     /**
      * Extrai método do parametro $trigger passado para o register
      *
-     * @param string Class::method
+     * @param string $trigger :: Class::method
      * @return string method
      */
     private function classMethod(string $trigger) {
